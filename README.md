@@ -17,6 +17,7 @@
 - [Building](#building)
 - [Deployment](#deployment)
 - [Contributing](#contributing)
+- [Folder Documentation](#folder-documentation)
 - [Environment Setup](#environment-setup)
 - [Troubleshooting](#troubleshooting)
 - [License](#license)
@@ -79,6 +80,13 @@ itl-website/
 ├── vercel.json                      # Vercel deployment configuration
 └── README.md                        # This file
 ```
+
+## Folder Documentation
+
+- [src/README.md](src/README.md) - Source-level architecture and file responsibilities.
+- [src/components/README.md](src/components/README.md) - Component catalog and conventions.
+- [src/assets/README.md](src/assets/README.md) - Asset usage guidance.
+- [public/README.md](public/README.md) - Public static file guidelines.
 
 ## Getting Started
 
