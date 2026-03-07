@@ -1,3 +1,7 @@
+/**
+ * Methodology section describing ITL's transformation framework.
+ * Uses staggered cards for research, training, and implementation streams.
+ */
 import { motion } from 'framer-motion'
 
 const stagger = {
@@ -37,6 +41,10 @@ const cards = [
   },
 ]
 
+/**
+ * Renders the transformation methodology cards.
+ * @returns {JSX.Element} Section describing how leadership transformation is delivered.
+ */
 export default function TransformSection() {
   return (
     <section className="bg-navy-900 py-20 px-6 md:py-32 md:px-12 lg:px-24">

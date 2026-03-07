@@ -1,3 +1,7 @@
+/**
+ * North Star section describing ITL's core vision and directional principles.
+ * Combines a symbolic graphic with explanatory content.
+ */
 import { motion } from 'framer-motion'
 import { Navigation, Eye, Target, Heart } from 'lucide-react'
 
@@ -11,6 +15,10 @@ const fadeRight = {
   visible: { opacity: 1, x: 0, transition: { duration: 0.7, ease: 'easeOut' } },
 }
 
+/**
+ * Renders the "Our North Star" section.
+ * @returns {JSX.Element} Vision section with iconography and narrative text.
+ */
 export default function NorthStarSection() {
   return (
     <section id="institute" className="bg-navy-900 py-16 px-6 md:py-24 md:px-12 lg:px-24">

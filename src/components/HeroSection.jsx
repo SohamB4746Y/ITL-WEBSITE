@@ -1,3 +1,7 @@
+/**
+ * Hero banner section for the ITL website landing page.
+ * Contains primary brand message, supporting copy, and a discovery CTA.
+ */
 import { motion } from 'framer-motion'
 import { ChevronDown } from 'lucide-react'
 
@@ -13,6 +17,10 @@ const fadeUp = {
   visible: { opacity: 1, y: 0, transition: { duration: 0.7, ease: 'easeOut' } },
 }
 
+/**
+ * Renders the animated hero content block.
+ * @returns {JSX.Element} Hero section with headline and animated accents.
+ */
 export default function HeroSection() {
   return (
     <section className="relative min-h-screen bg-hero-gradient flex items-center overflow-hidden">

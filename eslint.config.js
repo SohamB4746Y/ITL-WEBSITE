@@ -1,3 +1,7 @@
+/**
+ * ESLint flat configuration for the ITL website.
+ * Applies recommended JavaScript and React rules for src files.
+ */
 import js from '@eslint/js'
 import globals from 'globals'
 import reactHooks from 'eslint-plugin-react-hooks'

@@ -1,3 +1,7 @@
+/**
+ * "Why We Exist" narrative section.
+ * Presents the institute's purpose through three strategic pillars.
+ */
 import { motion } from 'framer-motion'
 
 const stagger = {
@@ -28,6 +32,10 @@ const pillars = [
   },
 ]
 
+/**
+ * Renders the solution framing and pillar cards.
+ * @returns {JSX.Element} Mission and impact section with animated grid.
+ */
 export default function WhyWeExistSection() {
   return (
     <section id="approach" className="bg-navy-950 py-20 px-6 md:py-32 md:px-12 lg:px-24">

@@ -1,4 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+/**
+ * Tailwind theme configuration for ITL brand colors, fonts, and gradients.
+ */
 export default {
   content: ["./index.html", "./src/**/*.{js,jsx}"],
   theme: {

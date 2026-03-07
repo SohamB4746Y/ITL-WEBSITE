@@ -1,3 +1,6 @@
+/**
+ * Pathways section presenting the institute's four ecosystem offerings.
+ */
 import { motion } from 'framer-motion'
 import { ArrowUpRight } from 'lucide-react'
 
@@ -47,6 +50,10 @@ const pathways = [
   },
 ]
 
+/**
+ * Renders pathway cards for different audience segments.
+ * @returns {JSX.Element} Ecosystem pathways and impact section.
+ */
 export default function PathwaysSection() {
   return (
     <section id="enterprises" className="bg-cta-gradient py-20 px-6 md:py-32 md:px-12 lg:px-24">

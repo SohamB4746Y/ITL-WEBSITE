@@ -1,3 +1,6 @@
+/**
+ * Founder spotlight section introducing leadership background and profile CTA.
+ */
 import { motion } from 'framer-motion'
 
 const fadeUp = {
@@ -5,6 +8,10 @@ const fadeUp = {
   visible: { opacity: 1, y: 0, transition: { duration: 0.7, ease: 'easeOut' } },
 }
 
+/**
+ * Renders founder biography and external profile link.
+ * @returns {JSX.Element} Founder section with descriptive text and call-to-action.
+ */
 export default function FounderSection() {
   return (
     <section className="bg-section-gradient py-16 px-6 md:py-24 md:px-12 lg:px-24">

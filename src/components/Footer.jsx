@@ -1,3 +1,6 @@
+/**
+ * Site footer containing brand summary, navigation shortcuts, and social links.
+ */
 import { Linkedin, Twitter } from 'lucide-react'
 
 const navLinks = [
@@ -8,6 +11,10 @@ const navLinks = [
   { label: 'Contact Us', href: '#contact' },
 ]
 
+/**
+ * Renders the footer contact and navigation area.
+ * @returns {JSX.Element} Footer section for the ITL website.
+ */
 export default function Footer() {
   return (
     <footer id="contact" className="bg-navy-950 border-t border-white/10 py-12 px-6 md:py-16 md:px-12 lg:px-24">

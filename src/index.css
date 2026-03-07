@@ -1,3 +1,7 @@
+/*
+ * Global stylesheet for the ITL website.
+ * Defines font imports, Tailwind layers, utility classes, and shared keyframe animations.
+ */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500;600&display=swap');
 @tailwind base;
 @tailwind components;

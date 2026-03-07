@@ -1,3 +1,7 @@
+/**
+ * Top navigation bar with desktop links and mobile full-screen menu.
+ * Includes scroll-reactive background styling.
+ */
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { Menu, X } from 'lucide-react'
@@ -10,6 +14,10 @@ const navLinks = [
   { label: 'Contact Us', href: '#contact' },
 ]
 
+/**
+ * Renders the primary site navigation.
+ * @returns {JSX.Element} Sticky navigation and mobile overlay menu.
+ */
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
