@@ -55,9 +55,10 @@ export default function Navbar() {
               <a
                 key={link.label}
                 href={link.href}
-                className="text-sm text-white/70 hover:text-white transition-colors"
+                className="text-sm text-white/70 hover:text-white transition-colors relative group/link"
               >
                 {link.label}
+                <span className="absolute -bottom-0.5 left-0 w-full h-px bg-teal-light scale-x-0 group-hover/link:scale-x-100 transition-transform duration-300 origin-left" />
               </a>
             ))}
           </div>
