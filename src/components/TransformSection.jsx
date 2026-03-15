@@ -92,10 +92,11 @@ export default function TransformSection() {
               variants={fadeUp}
               whileHover={{ scale: 1.02 }}
               transition={{ type: 'spring', stiffness: 300 }}
-              className={`bg-navy-800 border border-white/10 rounded-2xl p-8 ${
+              className={`relative bg-navy-800 border border-white/10 rounded-2xl p-8 overflow-hidden ${
                 i === 1 ? 'md:mt-10' : i === 2 ? 'md:mt-20' : ''
               }`}
             >
+              <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-teal-brand/70 to-transparent" />
               <h3 className="font-display text-white text-[22px] mb-6">
                 {card.title}
               </h3>
