@@ -51,7 +51,9 @@ export default function HeroSection() {
             <span className="italic-serif text-3xl md:text-4xl lg:text-6xl">
               the
             </span>{' '}
-            World Can Trust.
+            <span className="bg-gradient-to-r from-teal-glow to-teal-light bg-clip-text text-transparent">
+              World Can Trust.
+            </span>
           </motion.h1>
 
           <motion.p
