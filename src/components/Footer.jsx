@@ -59,29 +59,29 @@ export default function Footer() {
             <h4 className="text-white/60 text-xs tracking-widest uppercase mb-4">
               Connect
             </h4>
-            <div className="flex gap-4">
+            <div className="flex gap-3">
               <a
                 href="https://linkedin.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-white/50 hover:text-teal-light transition-colors"
+                className="text-white/50 hover:text-teal-light transition-colors w-9 h-9 rounded-full border border-white/10 hover:border-teal-light/40 flex items-center justify-center"
                 aria-label="LinkedIn"
               >
-                <Linkedin size={20} />
+                <Linkedin size={18} />
               </a>
               <a
                 href="https://twitter.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-white/50 hover:text-teal-light transition-colors"
+                className="text-white/50 hover:text-teal-light transition-colors w-9 h-9 rounded-full border border-white/10 hover:border-teal-light/40 flex items-center justify-center"
                 aria-label="Twitter"
               >
-                <Twitter size={20} />
+                <Twitter size={18} />
               </a>
             </div>
           </div>
           <p className="text-white/30 text-xs mt-8 md:mt-0">
-            © 2024 Institute for Trusted Leadership
+            © 2026 Institute for Trusted Leadership
           </p>
         </div>
       </div>
