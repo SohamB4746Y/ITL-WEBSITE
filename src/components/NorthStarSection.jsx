@@ -84,10 +84,10 @@ export default function NorthStarSection() {
           </p>
 
           {/* Progress indicator */}
-          <div className="flex gap-2 mt-8">
-            <div className="w-8 h-1 rounded-full bg-teal-brand" />
-            <div className="w-8 h-1 rounded-full bg-white/20" />
-            <div className="w-8 h-1 rounded-full bg-white/20" />
+          <div className="flex gap-2 mt-8 items-center">
+            <div className="w-12 h-1 rounded-full bg-gradient-to-r from-teal-glow to-teal-brand" />
+            <div className="w-6 h-0.5 rounded-full bg-white/20" />
+            <div className="w-6 h-0.5 rounded-full bg-white/20" />
           </div>
         </motion.div>
       </div>
