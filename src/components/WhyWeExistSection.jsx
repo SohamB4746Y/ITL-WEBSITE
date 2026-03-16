@@ -81,7 +81,7 @@ export default function WhyWeExistSection() {
                   : ''
               } px-4 md:px-8`}
             >
-              <span className="font-display text-7xl md:text-8xl text-white/10 block leading-none">
+              <span className="font-display text-7xl md:text-8xl bg-gradient-to-br from-teal-glow/40 to-teal-brand/20 bg-clip-text text-transparent block leading-none">
                 {pillar.num}
               </span>
               <p className="text-sm tracking-widest text-white uppercase mt-4 mb-3 font-medium">
